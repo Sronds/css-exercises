@@ -2,15 +2,53 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+.container {
+  display: flex;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin-left: 26px;
+  margin-right: 26px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  padding-top: 6px;
+  text-align: center;
+}
+
+/* Create a container for your items. Apply necessary flex 
+direction. Apply necessary content justification.  */
+
+
+
 img {
   width: 100px;
   height: 100px;
 }
 
+
 .title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+
   font-size: 36px;
   font-weight: 900;
 }
+
+
+
+
 
 /* do not edit this footer */
 .footer {
